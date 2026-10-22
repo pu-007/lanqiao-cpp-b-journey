@@ -1,0 +1,42 @@
+title,year,round,group,level,prerequisite,url,local_id,verification,checked_on
+修剪灌木,2022,省赛,C/C++ B,1,找规律、边界,https://www.dotcpp.com/oj/problem2657.html,,题集目录已核对；未逐题精读,2026-10-21
+刷题统计,2022,省赛,C/C++ B,1,枚举、整周与余数,https://www.dotcpp.com/oj/problem2656.html,,题集目录已核对；未逐题精读,2026-10-21
+好数,2024,省赛,C/C++ B,1,digit_filter,https://www.luogu.com.cn/problem/P10424,real_good_numbers,题目正文已读,2026-10-21
+回文日期,2020,第二轮省赛,A/B共享,2,数位与日期合法性,https://www.luogu.com.cn/problem/P8716,,搜索索引已核对标题和组别,2026-10-21
+X进制减法,2022,省赛,C/C++ B,2,powmod、进位表示,https://www.dotcpp.com/oj/problem2658.html,,题集目录已核对；未逐题精读,2026-10-21
+冶炼金属,2023,省赛,C/C++ B,2,capacity；整数区间,https://www.luogu.com.cn/problem/P9240,real_smelting,题目正文已读,2026-10-21
+子串简写,2023,省赛,C/C++ B,2,prefix；前缀计数,https://www.dotcpp.com/oj/problem3154.html,,题集目录已核对；未逐题精读,2026-10-21
+R 格式,2024,省赛,C/C++ B,2,字符串、进制与精度,https://www.dotcpp.com/oj/problem3210.html,,题集目录已核对；未逐题精读,2026-10-21
+迷宫（填空合集内）,2019,省赛,C/C++ B,3,maze；路径恢复,https://www.luogu.com.cn/problem/P8679,,搜索索引已核对；整页为填空合集,2026-10-21
+砝码称重,2021,第一轮省赛,A/B共享,3,knapsack,https://www.luogu.com.cn/problem/P8742,real_weights,题目正文已读,2026-10-21
+岛屿个数,2023,省赛,C/C++ B,3,maze；仔细区分邻接规则,https://www.dotcpp.com/oj/problem3153.html,,题集目录已核对；未逐题精读,2026-10-21
+抓娃娃,2023,国赛,C/C++ B,3,排序、二分；利用长度约束,https://www.luogu.com.cn/problem/P9426,,题目正文已读,2026-10-21
+拼数字,2023,国赛,C/C++ B,3,枚举与整除,https://www.luogu.com.cn/problem/P9427,,搜索索引已核对标题和组别,2026-10-21
+接龙数列,2023,省赛,C/C++ B,3,lis、按末位定义状态,https://www.dotcpp.com/oj/problem3152.html,,题集目录已核对；未逐题精读,2026-10-21
+飞机降落,2023,省赛,C/C++ B,3,subsets；时间状态,https://www.luogu.com.cn/problem/P9241,real_landing,题目正文已读,2026-10-21
+数字接龙,2024,省赛,C/C++ B,3,subsets；网格路径约束,https://www.dotcpp.com/oj/problem3212.html,,题集目录已核对；未逐题精读,2026-10-21
+最小字符串,2024,国赛,C/C++ B,3,字符串与贪心,https://www.dotcpp.com/oj/problem3292.html,,题集目录已核对；未逐题精读,2026-10-21
+李白打酒加强版,2022,省赛,C/C++ B,4,计数DP、边界,https://www.dotcpp.com/oj/problem2662.html,,题集目录已核对；未逐题精读,2026-10-21
+积木画,2022,省赛,C/C++ B,4,knapsack、状态设计,https://www.dotcpp.com/oj/problem2660.html,,题集目录已核对；未逐题精读,2026-10-21
+统计子矩阵,2022,省赛,C/C++ B,4,prefix + window,https://www.luogu.com.cn/problem/P8783,real_submatrix,题目正文已读,2026-10-21
+数三角,2023,国赛,C/C++ B,4,枚举中心、计数；排除退化,https://www.luogu.com.cn/problem/P9423,,题目正文已读,2026-10-21
+整数删除,2023,省赛,C/C++ B,4,priority_queue；邻接关系维护,https://www.dotcpp.com/oj/problem3155.html,,题集目录已核对；未逐题精读,2026-10-21
+景区导游,2023,省赛,C/C++ B,4,树距离；LCA扩展X2,https://www.dotcpp.com/oj/problem3156.html,,题集目录已核对；未逐题精读,2026-10-21
+宝石组合,2024,省赛,C/C++ B,4,gcd；因数/倍数枚举,https://www.dotcpp.com/oj/problem3211.html,,题集目录已核对；未逐题精读,2026-10-21
+拔河,2024,省赛,C/C++ B,4,prefix；综合建模,https://www.dotcpp.com/oj/problem3214.html,,题集目录已核对；未逐题精读,2026-10-21
+数位翻转,2024,国赛,C/C++ B,4,位运算、计数,https://www.dotcpp.com/oj/problem3293.html,,题集目录已核对；未逐题精读,2026-10-21
+爬山,2024,省赛,C/C++ B,4,综合建模；先独立读题,https://www.dotcpp.com/oj/problem3213.html,,题集目录已核对；未逐题精读,2026-10-21
+立定跳远,2024,国赛,C/C++ B,4,capacity；判定细化,https://www.dotcpp.com/oj/problem3291.html,,题集目录已核对；未逐题精读,2026-10-21
+蚂蚁开会,2024,国赛,C/C++ B,4,计数建模,https://www.dotcpp.com/oj/problem3290.html,,题集目录已核对；未逐题精读,2026-10-21
+子串去重,2025,国赛,C/C++ B,4,字符串与查询,https://www.luogu.com.cn/problem/P12838,,搜索索引/题解标题已核对,2026-10-21
+翻倍,2025,国赛,C/C++ B,4,综合题；先独立读题,https://www.luogu.com.cn/problem/P12836,,搜索索引/题解标题已核对,2026-10-21
+扫雷,2022,省赛,C/C++ B,5,图/搜索综合；读原题约束,https://www.dotcpp.com/oj/problem2661.html,,题集目录已核对；未逐题精读,2026-10-21
+砍竹子,2022,省赛,C/C++ B,5,综合题；先保小数据基线,https://www.dotcpp.com/oj/problem2663.html,,题集目录已核对；未逐题精读,2026-10-21
+删边问题,2023,国赛,C/C++ B,5,bridges + tree_party的子树汇总,https://www.luogu.com.cn/problem/P9424,real_delete_edge,题目正文已读,2026-10-21
+砍树,2023,省赛,C/C++ B,5,树与差分综合,https://www.dotcpp.com/oj/problem3157.html,,题集目录已核对；未逐题精读,2026-10-21
+套手镯,2024,国赛,C/C++ B,5,综合建模,https://www.dotcpp.com/oj/problem3295.html,,题集目录已核对；未逐题精读,2026-10-21
+数星星,2024,国赛,C/C++ B,5,数学与计数综合,https://www.dotcpp.com/oj/problem3294.html,,题集目录已核对；未逐题精读,2026-10-21
+最长回文前后缀,2024,国赛,C/C++ B,5,字符串提高,https://www.dotcpp.com/oj/problem3297.html,,题集目录已核对；未逐题精读,2026-10-21
+跳石头,2024,国赛,C/C++ B,5,综合建模,https://www.dotcpp.com/oj/problem3296.html,,题集目录已核对；未逐题精读,2026-10-21
+涂格子,2025,国赛,C/C++ B,5,状态设计与组合；按原题分析,https://www.luogu.com.cn/problem/P12839,,搜索索引已核对标题和组别,2026-10-21
+近似回文字符串,2025,国赛,C/C++ B,5,组合计数；先小字母表枚举,https://www.luogu.com.cn/problem/P12837,,题目正文已读,2026-10-21

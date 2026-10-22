@@ -1,0 +1,694 @@
+[
+  {
+    "id": "sum64",
+    "project": "00-basics",
+    "title": "训练时长统计",
+    "level": 0,
+    "source": "原创教学题",
+    "path": "projects/00-basics/sum64.cpp",
+    "cases": [
+      {
+        "input": "4\n1000000000 1000000000 -1 5\n",
+        "output": "2000000004\n"
+      },
+      {
+        "input": "1\n-7\n",
+        "output": "-7\n"
+      }
+    ]
+  },
+  {
+    "id": "digit_filter",
+    "project": "00-basics",
+    "title": "数字筛选器",
+    "level": 0,
+    "source": "原创教学题",
+    "path": "projects/00-basics/digit_filter.cpp",
+    "cases": [
+      {
+        "input": "25\n",
+        "output": "8\n"
+      },
+      {
+        "input": "1\n",
+        "output": "0\n"
+      }
+    ]
+  },
+  {
+    "id": "ranking",
+    "project": "01-stl",
+    "title": "训练排行榜",
+    "level": 1,
+    "source": "原创教学题",
+    "path": "projects/01-stl/ranking.cpp",
+    "cases": [
+      {
+        "input": "4\nzoe 90\nann 90\nbob 100\nann 90\n",
+        "output": "bob 100\nann 90\nann 90\nzoe 90\n"
+      },
+      {
+        "input": "1\na 0\n",
+        "output": "a 0\n"
+      }
+    ]
+  },
+  {
+    "id": "frequency",
+    "project": "01-stl",
+    "title": "日志词频分析",
+    "level": 1,
+    "source": "原创教学题",
+    "path": "projects/01-stl/frequency.cpp",
+    "cases": [
+      {
+        "input": "5\ndp stl dp bfs stl\n",
+        "output": "bfs 1\ndp 2\nstl 2\n"
+      },
+      {
+        "input": "3\na a a\n",
+        "output": "a 3\n"
+      }
+    ]
+  },
+  {
+    "id": "brackets",
+    "project": "01-stl",
+    "title": "括号检查器",
+    "level": 1,
+    "source": "原创教学题",
+    "path": "projects/01-stl/brackets.cpp",
+    "cases": [
+      {
+        "input": "([]{})\n",
+        "output": "YES\n"
+      },
+      {
+        "input": "([)]\n",
+        "output": "NO\n"
+      },
+      {
+        "input": "\n",
+        "output": "YES\n"
+      },
+      {
+        "input": ")\n",
+        "output": "NO\n"
+      }
+    ]
+  },
+  {
+    "id": "prefix",
+    "project": "02-range",
+    "title": "静态区间报表",
+    "level": 1,
+    "source": "原创教学题",
+    "path": "projects/02-range/prefix.cpp",
+    "cases": [
+      {
+        "input": "4 3\n2 -3 5 7\n1 4\n2 2\n3 4\n",
+        "output": "11\n-3\n12\n"
+      },
+      {
+        "input": "1 1\n1000000000\n1 1\n",
+        "output": "1000000000\n"
+      }
+    ]
+  },
+  {
+    "id": "difference",
+    "project": "02-range",
+    "title": "批量训练排期",
+    "level": 1,
+    "source": "原创教学题",
+    "path": "projects/02-range/difference.cpp",
+    "cases": [
+      {
+        "input": "5 2\n1 3 2\n3 5 -1\n",
+        "output": "2 2 1 -1 -1\n"
+      },
+      {
+        "input": "1 0\n",
+        "output": "0\n"
+      }
+    ]
+  },
+  {
+    "id": "window",
+    "project": "02-range",
+    "title": "预算内连续训练段",
+    "level": 2,
+    "source": "原创教学题",
+    "path": "projects/02-range/window.cpp",
+    "cases": [
+      {
+        "input": "4 3\n1 2 0 3\n",
+        "output": "8\n"
+      },
+      {
+        "input": "3 0\n0 0 0\n",
+        "output": "6\n"
+      },
+      {
+        "input": "1 0\n1\n",
+        "output": "0\n"
+      }
+    ]
+  },
+  {
+    "id": "capacity",
+    "project": "03-decisions",
+    "title": "最小运输容量",
+    "level": 2,
+    "source": "原创教学题",
+    "path": "projects/03-decisions/capacity.cpp",
+    "cases": [
+      {
+        "input": "5 3\n1 2 3 4 5\n",
+        "output": "6\n"
+      },
+      {
+        "input": "3 1\n5 5 5\n",
+        "output": "15\n"
+      },
+      {
+        "input": "3 3\n5 2 4\n",
+        "output": "5\n"
+      }
+    ]
+  },
+  {
+    "id": "intervals",
+    "project": "03-decisions",
+    "title": "会议室预约",
+    "level": 2,
+    "source": "原创教学题",
+    "path": "projects/03-decisions/intervals.cpp",
+    "cases": [
+      {
+        "input": "4\n0 3\n1 2\n2 4\n4 5\n",
+        "output": "3\n"
+      },
+      {
+        "input": "0\n",
+        "output": "0\n"
+      }
+    ]
+  },
+  {
+    "id": "maze",
+    "project": "04-search",
+    "title": "迷宫导航器",
+    "level": 2,
+    "source": "原创教学题",
+    "path": "projects/04-search/maze.cpp",
+    "cases": [
+      {
+        "input": "3 4\n....\n.##.\n....\n",
+        "output": "5\n"
+      },
+      {
+        "input": "1 1\n.\n",
+        "output": "0\n"
+      },
+      {
+        "input": "2 2\n.#\n#.\n",
+        "output": "-1\n"
+      },
+      {
+        "input": "1 1\n#\n",
+        "output": "-1\n"
+      }
+    ]
+  },
+  {
+    "id": "subsets",
+    "project": "04-search",
+    "title": "装备组合搜索",
+    "level": 2,
+    "source": "原创教学题",
+    "path": "projects/04-search/subsets.cpp",
+    "cases": [
+      {
+        "input": "4 3\n1 2 3 0\n",
+        "output": "4\n"
+      },
+      {
+        "input": "0 0\n",
+        "output": "1\n"
+      },
+      {
+        "input": "3 0\n0 0 0\n",
+        "output": "8\n"
+      }
+    ]
+  },
+  {
+    "id": "dsu",
+    "project": "05-graphs",
+    "title": "好友圈连通性",
+    "level": 2,
+    "source": "原创教学题",
+    "path": "projects/05-graphs/dsu.cpp",
+    "cases": [
+      {
+        "input": "4 5\n2 1 2\n1 1 2\n1 2 3\n2 1 3\n2 1 4\n",
+        "output": "NO\nYES\nNO\n"
+      },
+      {
+        "input": "1 1\n2 1 1\n",
+        "output": "YES\n"
+      }
+    ]
+  },
+  {
+    "id": "dijkstra",
+    "project": "05-graphs",
+    "title": "校园快递最短路",
+    "level": 3,
+    "source": "原创教学题",
+    "path": "projects/05-graphs/dijkstra.cpp",
+    "cases": [
+      {
+        "input": "4 4 1\n1 2 10\n1 3 1\n3 2 2\n2 3 0\n",
+        "output": "0 3 1 -1\n"
+      },
+      {
+        "input": "1 0 1\n",
+        "output": "0\n"
+      }
+    ]
+  },
+  {
+    "id": "kruskal",
+    "project": "05-graphs",
+    "title": "校园网络铺线",
+    "level": 3,
+    "source": "原创教学题",
+    "path": "projects/05-graphs/kruskal.cpp",
+    "cases": [
+      {
+        "input": "4 5\n1 2 3\n2 3 1\n1 3 9\n3 4 2\n1 4 8\n",
+        "output": "6\n"
+      },
+      {
+        "input": "2 0\n",
+        "output": "-1\n"
+      },
+      {
+        "input": "1 0\n",
+        "output": "0\n"
+      }
+    ]
+  },
+  {
+    "id": "knapsack",
+    "project": "06-dp",
+    "title": "训练收益规划",
+    "level": 3,
+    "source": "原创教学题",
+    "path": "projects/06-dp/knapsack.cpp",
+    "cases": [
+      {
+        "input": "3 5\n2 3\n3 5\n4 6\n",
+        "output": "8\n"
+      },
+      {
+        "input": "1 6\n3 5\n",
+        "output": "5\n"
+      },
+      {
+        "input": "1 0\n1 9\n",
+        "output": "0\n"
+      }
+    ]
+  },
+  {
+    "id": "lis",
+    "project": "06-dp",
+    "title": "能力增长曲线",
+    "level": 3,
+    "source": "原创教学题",
+    "path": "projects/06-dp/lis.cpp",
+    "cases": [
+      {
+        "input": "6\n3 1 2 2 4 0\n",
+        "output": "3\n"
+      },
+      {
+        "input": "4\n7 7 7 7\n",
+        "output": "1\n"
+      },
+      {
+        "input": "0\n",
+        "output": "0\n"
+      }
+    ]
+  },
+  {
+    "id": "sieve",
+    "project": "07-math",
+    "title": "素数查询服务",
+    "level": 2,
+    "source": "原创教学题",
+    "path": "projects/07-math/sieve.cpp",
+    "cases": [
+      {
+        "input": "10 5\n0 1 2 9 7\n",
+        "output": "NO\nNO\nYES\nNO\nYES\n"
+      },
+      {
+        "input": "1 2\n0 1\n",
+        "output": "NO\nNO\n"
+      }
+    ]
+  },
+  {
+    "id": "powmod",
+    "project": "07-math",
+    "title": "大指数取模器",
+    "level": 2,
+    "source": "原创教学题",
+    "path": "projects/07-math/powmod.cpp",
+    "cases": [
+      {
+        "input": "2 10 1000\n",
+        "output": "24\n"
+      },
+      {
+        "input": "0 0 7\n",
+        "output": "1\n"
+      },
+      {
+        "input": "7 0 1\n",
+        "output": "0\n"
+      }
+    ]
+  },
+  {
+    "id": "fenwick",
+    "project": "08-structures",
+    "title": "实时训练报表",
+    "level": 3,
+    "source": "原创教学题",
+    "path": "projects/08-structures/fenwick.cpp",
+    "cases": [
+      {
+        "input": "3 3\n1 2 3\n2 1 3\n1 2 -5\n2 2 3\n",
+        "output": "6\n0\n"
+      },
+      {
+        "input": "1 2\n0\n1 1 1000000000\n2 1 1\n",
+        "output": "1000000000\n"
+      }
+    ]
+  },
+  {
+    "id": "windowmax",
+    "project": "08-structures",
+    "title": "滑动峰值监控",
+    "level": 3,
+    "source": "原创教学题",
+    "path": "projects/08-structures/windowmax.cpp",
+    "cases": [
+      {
+        "input": "6 3\n1 3 -1 -3 5 3\n",
+        "output": "3 3 5 5\n"
+      },
+      {
+        "input": "3 1\n2 2 -1\n",
+        "output": "2 2 -1\n"
+      }
+    ]
+  },
+  {
+    "id": "kmp",
+    "project": "08-structures",
+    "title": "日志模式匹配",
+    "level": 3,
+    "source": "原创教学题",
+    "path": "projects/08-structures/kmp.cpp",
+    "cases": [
+      {
+        "input": "aaaaa\naaa\n",
+        "output": "3\n"
+      },
+      {
+        "input": "abc\nd\n",
+        "output": "0\n"
+      },
+      {
+        "input": "ab\nabc\n",
+        "output": "0\n"
+      }
+    ]
+  },
+  {
+    "id": "merge_cost",
+    "project": "09-advanced-dp",
+    "title": "连续文件合并",
+    "level": 4,
+    "source": "原创教学题",
+    "path": "projects/09-advanced-dp/merge_cost.cpp",
+    "cases": [
+      {
+        "input": "3\n1 2 3\n",
+        "output": "9\n"
+      },
+      {
+        "input": "1\n99\n",
+        "output": "0\n"
+      }
+    ]
+  },
+  {
+    "id": "tree_party",
+    "project": "09-advanced-dp",
+    "title": "团队代表选择",
+    "level": 4,
+    "source": "原创教学题",
+    "path": "projects/09-advanced-dp/tree_party.cpp",
+    "cases": [
+      {
+        "input": "3\n5 10 6\n1 2\n2 3\n",
+        "output": "11\n"
+      },
+      {
+        "input": "1\n7\n",
+        "output": "7\n"
+      }
+    ]
+  },
+  {
+    "id": "tsp",
+    "project": "10-state-dp",
+    "title": "小型配送路线",
+    "level": 4,
+    "source": "原创教学题",
+    "path": "projects/10-state-dp/tsp.cpp",
+    "cases": [
+      {
+        "input": "3\n0 2 9\n2 0 3\n9 3 0\n",
+        "output": "14\n"
+      },
+      {
+        "input": "1\n0\n",
+        "output": "0\n"
+      }
+    ]
+  },
+  {
+    "id": "digit_dp",
+    "project": "10-state-dp",
+    "title": "超大数字筛选器",
+    "level": 4,
+    "source": "原创教学题",
+    "path": "projects/10-state-dp/digit_dp.cpp",
+    "cases": [
+      {
+        "input": "20\n",
+        "output": "19\n"
+      },
+      {
+        "input": "0\n",
+        "output": "1\n"
+      },
+      {
+        "input": "4\n",
+        "output": "4\n"
+      }
+    ]
+  },
+  {
+    "id": "offline_connectivity",
+    "project": "11-capstone",
+    "title": "网络故障回放",
+    "level": 4,
+    "source": "原创教学题",
+    "path": "projects/11-capstone/offline_connectivity.cpp",
+    "cases": [
+      {
+        "input": "4 3 2\n1 2\n2 3\n3 4\n2 1\n",
+        "output": "2\n3\n"
+      },
+      {
+        "input": "2 2 2\n1 2\n1 2\n1 2\n",
+        "output": "1\n2\n"
+      },
+      {
+        "input": "1 0 0\n",
+        "output": ""
+      }
+    ]
+  },
+  {
+    "id": "bridges",
+    "project": "11-capstone",
+    "title": "网络关键边审计",
+    "level": 5,
+    "source": "原创教学题",
+    "path": "projects/11-capstone/bridges.cpp",
+    "cases": [
+      {
+        "input": "4 4\n1 2\n2 3\n3 1\n3 4\n",
+        "output": "1\n"
+      },
+      {
+        "input": "2 2\n1 2\n1 2\n",
+        "output": "0\n"
+      },
+      {
+        "input": "1 1\n1 1\n",
+        "output": "0\n"
+      }
+    ]
+  },
+  {
+    "id": "real_good_numbers",
+    "project": "past-papers",
+    "title": "好数",
+    "level": 1,
+    "source": "2024 省赛 C/C++ B 组；https://www.luogu.com.cn/problem/P10424",
+    "path": "solutions/past-papers/real_good_numbers.cpp",
+    "cases": [
+      {
+        "input": "30\n",
+        "output": "10\n"
+      },
+      {
+        "input": "1\n",
+        "output": "1\n"
+      },
+      {
+        "input": "10\n",
+        "output": "5\n"
+      }
+    ]
+  },
+  {
+    "id": "real_smelting",
+    "project": "past-papers",
+    "title": "冶炼金属",
+    "level": 2,
+    "source": "2023 省赛 C/C++ B 组；https://www.luogu.com.cn/problem/P9240",
+    "path": "solutions/past-papers/real_smelting.cpp",
+    "cases": [
+      {
+        "input": "2\n10 2\n15 3\n",
+        "output": "4 5\n"
+      },
+      {
+        "input": "1\n1 1\n",
+        "output": "1 1\n"
+      }
+    ]
+  },
+  {
+    "id": "real_landing",
+    "project": "past-papers",
+    "title": "飞机降落",
+    "level": 3,
+    "source": "2023 省赛 C/C++ B 组；https://www.luogu.com.cn/problem/P9241",
+    "path": "solutions/past-papers/real_landing.cpp",
+    "cases": [
+      {
+        "input": "2\n2\n0 0 2\n2 0 1\n2\n0 0 2\n0 0 2\n",
+        "output": "YES\nNO\n"
+      },
+      {
+        "input": "1\n1\n3 0 100\n",
+        "output": "YES\n"
+      }
+    ]
+  },
+  {
+    "id": "real_weights",
+    "project": "past-papers",
+    "title": "砝码称重",
+    "level": 3,
+    "source": "2021 第一轮省赛 A/B 共享题；https://www.luogu.com.cn/problem/P8742",
+    "path": "solutions/past-papers/real_weights.cpp",
+    "cases": [
+      {
+        "input": "2\n2 3\n",
+        "output": "4\n"
+      },
+      {
+        "input": "1\n5\n",
+        "output": "1\n"
+      },
+      {
+        "input": "2\n1 1\n",
+        "output": "2\n"
+      }
+    ]
+  },
+  {
+    "id": "real_submatrix",
+    "project": "past-papers",
+    "title": "统计子矩阵",
+    "level": 4,
+    "source": "2022 省赛 C/C++ B 组；https://www.luogu.com.cn/problem/P8783",
+    "path": "solutions/past-papers/real_submatrix.cpp",
+    "cases": [
+      {
+        "input": "2 2 2\n1 1\n1 1\n",
+        "output": "8\n"
+      },
+      {
+        "input": "2 2 1\n0 0\n0 0\n",
+        "output": "9\n"
+      },
+      {
+        "input": "1 1 1\n2\n",
+        "output": "0\n"
+      }
+    ]
+  },
+  {
+    "id": "real_delete_edge",
+    "project": "past-papers",
+    "title": "删边问题",
+    "level": 5,
+    "source": "2023 国赛 C/C++ B 组 F；https://www.luogu.com.cn/problem/P9424",
+    "path": "solutions/past-papers/real_delete_edge.cpp",
+    "cases": [
+      {
+        "input": "3 2\n2 3 4\n1 2\n2 3\n",
+        "output": "1\n"
+      },
+      {
+        "input": "2 2\n1 2\n1 2\n1 2\n",
+        "output": "-1\n"
+      },
+      {
+        "input": "3 2\n1 2 4\n1 2\n1 2\n",
+        "output": "1\n"
+      },
+      {
+        "input": "3 1\n1 1 1\n1 1\n",
+        "output": "-1\n"
+      }
+    ]
+  }
+]
