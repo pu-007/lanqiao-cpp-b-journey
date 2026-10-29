@@ -27,3 +27,9 @@ python3 scripts/verify.py --seed 20261021 --rounds 40
 逐题检查次数保存在 [verification-report.json](../tests/verification-report.json)。重新运行产生的报告位于 build/verification.json，不覆盖交付记录。
 
 测试不构成形式化证明，也没有验证所有外部题解、所有平台编译器或官方隐藏数据。每题文档给出使用前提、复杂度和边界，学习时仍需自己解释正确性。
+
+## 2026-10-28 基础补充验证
+
+新增 12 个 C++17 基础题程序，使用 `-Wall -Wextra -Werror` 编译，逐个通过题面样例和边界测试，共 24 个用例；复现：`python3 scripts/check_foundations.py`。基础补充题的本地运行方式见 [练习题单](foundations/practice.md)，尚未纳入原有 `lab.py` 题库。
+
+离线可视化页面用 Node 模拟 DOM 操作，检查前缀和结果、三步二分命中、BFS 到终点的距离与重置按钮。这个检查覆盖交互逻辑，没有代替真实浏览器与各类屏幕的视觉测试。原有 34 个参考程序未改动，上方报告仍是 10 月 21 日的验证结果。

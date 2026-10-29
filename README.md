@@ -7,9 +7,10 @@
 ## 先从这里开始
 
 1. 看 [环境配置](docs/setup.md)，确认 `g++ --version` 和 Python 3.10+ 可用。
-2. 按 [第一周 9 小时操作单](docs/first-week.md) 开始，只开 `00-basics`。
-3. 用 [26 周日历](docs/weekly-plan.md) 决定本周必做项；高级专题不用提前啃。
-4. 每题先做自己的版本，再看折叠提示，最后读参考代码。[学习方法](docs/how-to-learn.md)
+2. 先从 [算法基础入门](docs/foundations/README.md) 开始；有不熟的概念就用 [12 道基础练习](docs/foundations/practice.md) 补齐。
+3. 打开 [本地交互演示](visualizations/index.html) 或 [可视化网站指南](resources/visual-learning.md)，观察后动手练习。
+4. 用 [26 周日历](docs/weekly-plan.md) 决定本周必做项；高级专题不用提前啃。
+5. 每题先做自己的版本，再看折叠提示，最后读参考代码。[学习方法](docs/how-to-learn.md)
 
 ```bash
 # 在仓库根目录运行；Windows 可将 python3 换成 python 或 py -3
@@ -25,6 +26,7 @@ python3 scripts/lab.py progress
 
 ## 仓库里有什么
 
+- **基础补充**：通俗教程、12 道附参考代码的基础题、3 个可离线单步运行的可视化演示，以及中文/英文动画网站指南。基础补充题采用独立编译命令，不在 lab.py 列表中。
 - **12 个递进项目、28 个原创教学主任务**：每题有明确输入输出、约束、自编样例、提示、复杂度、常见错误和两道升级练习。
 - **6 道真题的独立注释实现**：好数、冶炼金属、飞机降落、砝码称重、统计子矩阵、国赛删边问题；共 **34 个可独立编译的 C++ 程序**。
 - **41 道历年真题索引**：[历年真题分层索引](resources/problem-ladder.md)、[整套试卷入口](resources/past-papers.md)、[GitHub 与学习资源](resources/catalog.md)、[经验帖提炼](resources/experience.md)。2025、2026 省赛留作盲测。
@@ -76,6 +78,6 @@ python3 scripts/lab.py check all --sanitize  # 可选：编译器支持时检查
 
 ## 来源与维护
 
-资料检索日期 **2026-10-21**。链接按“正文已读 / 题集目录已核对 / 搜索索引可见 / 页面受限”说明，不把社区题解当成官方赛制。官网页面依赖动态加载，本次未读到第十八届完整规程；具体日期、资格、语言标准请跟踪学校及 [官方赛事入口](https://dasai.lanqiao.cn/)。
+历年真题和原资料检索日期 **2026-10-21**；可视化资源检索日期 **2026-10-28**。链接按“正文已读 / 题集目录已核对 / 搜索索引可见 / 页面受限”说明，不把社区题解当成官方赛制。官网页面依赖动态加载，本次未读到第十八届完整规程；具体日期、资格、语言标准请跟踪学校及 [官方赛事入口](https://dasai.lanqiao.cn/)。
 
 代码为本仓库独立编写，没有批量搬运第三方题解或受限题库。原创部分使用 [MIT License](LICENSE)，外部题目、文档和仓库保留各自权利与许可证。你可以直接在这个本地 Git 仓库继续训练；上传 GitHub 的方法见 [环境配置](docs/setup.md#保存到-github)。
